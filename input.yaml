@@ -1,7 +1,7 @@
 connections:
   aws/test:
-    accessKeyID: AKIA4BE3W6U6F7BTVT74
-    secretAccessKey: 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
+    accessKeyID: AKIASAMPLEKEY
+    secretAccessKey: 6bkpuV9fF3LX1Yo79OpfTwsw8wt5wsVLGTPJjDTu
 
 runs:
   '1':
