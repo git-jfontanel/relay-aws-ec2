@@ -40,6 +40,7 @@ try:
   pattern = re.compile(r'(?<!^)(?=[A-Z])')
 
   raw_filters = relay.get(D.filters)
+  print(raw_filters.items())
   for key, value in raw_filters.items():
     f = {}
     f['Name'] = pattern.sub('-', key).lower()
