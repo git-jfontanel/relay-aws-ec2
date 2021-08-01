@@ -44,7 +44,9 @@ try:
   for key, value in raw_filters.items():
     f = {}
     f['Name'] = pattern.sub('-', key).lower()
+    print f['Name']
     f['Values'] = [value]
+    print f['Values']
     list_of_filters.append(f)
 except requests.exceptions.HTTPError as e:
     if e.response.status_code == 422:
