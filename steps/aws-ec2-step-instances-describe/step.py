@@ -7,7 +7,6 @@ import requests
 from relay_sdk import Dynamic as D
 from relay_sdk import Interface
 
-
 def instance_to_dict(ec2, instance):
     shape = ec2.meta.client.meta.service_model.shape_for('Instance')
     attrs = instance.meta.resource_model.get_attributes(shape)
